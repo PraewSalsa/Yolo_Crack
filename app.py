@@ -41,7 +41,8 @@ st.write("อัปโหลดภาพของคุณเพื่อให�
 # ---------------------------
 @st.cache_resource
 def load_model():
-    model_path = "/content/drive/MyDrive/698-1-2025/Yolo/runs/detect/train2/weights/best.pt"
+    
+    model_path = "best.pt"
     model = YOLO(model_path)
     return model
 
