@@ -3,6 +3,8 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 import numpy as np
+import time
+
 st.title("YOLO Image Detection App :)")
 
 # ---------------------------
